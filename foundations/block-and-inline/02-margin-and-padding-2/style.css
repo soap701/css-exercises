@@ -19,11 +19,13 @@ body {
 
 .title {
   text-align: left;
+  /* text-align is not necessary here */
   padding: 9px;
 }
 
 .content {
   text-align: left;
+  /* text-align is not necessary here */
   padding: 10px;
   /* padding: 16px 8px; */
   margin-top:8px;
@@ -38,11 +40,16 @@ body {
 .next-line {
   display: button;
 }
+/* This is not necessary; there's no change in the html for this exercise */
 
 button {
   background: white;
   font-size: 13px;
+  /* display: block; */
   padding: 9px;
+  /* padding: 8px 24px; */
   width: 125px;
+  /* width is not necessary */
   margin: -100px
+  /* margin: 0 auto; */
 }
