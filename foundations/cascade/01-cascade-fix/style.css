@@ -8,28 +8,32 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
+/* or write p.small-para */
 
 .para {
   font-size: 22px;
 }
+/* place .small-para here because of the rule order specificity */
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
+
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+/* place .confirm here because of the order specificity */
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
